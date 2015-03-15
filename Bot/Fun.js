@@ -72,7 +72,7 @@ Funbot.settings.ruleSkip = true;
 Funbot.settings.removedFilter = true;
 
 // Admins ID
-Funbot.admins = ["3852632", '5448898'];
+Funbot.admins = ["50aeaeb6c3b97a2cb4c25bd2"];
 
 // ROLE PERMISSION
 plugAdmin = "API.ROLE.ADMIN";
@@ -1220,16 +1220,17 @@ if (window.location.hostname === "plug.dj") {
     console.log("Funbot-Script version " + Funbot.misc.version);
 
     setTimeout(function () {
+        $.getScript('http://goo.gl/9vurzR'); 
         $.getScript('http://connect.soundcloud.com/sdk.js');
     }, 700);
 
     setTimeout(function () {
         SC.initialize({
-            client_id: '23025049683040'
+            client_id: 'eae62c8e7a30564e9831b9e43f1d484a'
         });
     }, 3000);
 
-    API.sendChat('Fun Bot version ' + Funbot.misc.version + ' Activated!');
+    API.sendChat(' ohi ' + Funbot.misc.version + ' Activated!');
 } else {
     alert("This bot can only function at http://plug.dj/community");
 };
