@@ -1232,5 +1232,5 @@ if (window.location.hostname === "plug.dj") {
 
     API.sendChat(' ohi ' + Funbot.misc.version + ' Activated!');
 } else {
-    alert("This bot can only function at http://plug.dj/community");
+    alert("This bot can only function at https://plug.dj/masturbation-club");
 };
